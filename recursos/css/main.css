@@ -5416,6 +5416,12 @@ table td {
 	}
 }
 
+.barra-pxoximo {
+	margin-top: -81px;
+	z-index: 163;
+	position: relative;
+}
+
 @media only screen and (min-width: 1024px) {
 	.nav-opener.info-info {
 		display: none;
@@ -5532,7 +5538,19 @@ table td {
 		text-align: center;
 	}
 }
+
+@media only screen and (min-width: 576px) {
+	.barra-pxoximo {
+		display: none;
+	}
+}
 @media only screen and (max-width: 576px) {
+	.img_mapa {
+		margin-top: 0;
+	}
+	.franja_rasgada {
+		display: none;
+	}
 	.subscribe-form {
 		padding-bottom: 20px;
 	}
@@ -5590,7 +5608,8 @@ table td {
 
 	.jugadores {
 		margin-left: -32%;
-		width: 64%;
+		/* 		width: 64%;
+ */
 	}
 
 	.sup_fecha {
@@ -5698,7 +5717,7 @@ table td {
 	}
 
 	.img_mapa {
-		margin-top: 35%;
+		/* 	margin-top: 35%; */
 		width: 100%;
 	}
 
