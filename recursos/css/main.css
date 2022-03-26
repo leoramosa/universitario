@@ -5422,6 +5422,10 @@ table td {
 	position: relative;
 }
 
+.dosxuno {
+	font-size: 14px !important;
+}
+
 @media only screen and (min-width: 1024px) {
 	.nav-opener.info-info {
 		display: none;
