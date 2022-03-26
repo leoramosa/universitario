@@ -5477,15 +5477,17 @@ table td {
 		width: 60%;
 	}
 }
-@media only screen and (min-width: 768px) {
-	.img-mobile-d {
-		display: none;
+
+@media only screen and (max-width: 860px) {
+	.table-card .btn {
+		font-size: 18px;
 	}
 }
 @media only screen and (max-width: 768px) {
 	.subscribe-form {
 		padding-bottom: 80px;
 	}
+
 	.content-description {
 		text-align: justify;
 	}
@@ -5650,6 +5652,12 @@ table td {
 		width: 54%;
 	}
 }
+
+@media only screen and (max-width: 440px) {
+	.table-card .btn {
+		font-size: 14px;
+	}
+}
 @media only screen and (max-width: 412px) {
 	.card-biography {
 		display: initial;
@@ -5665,9 +5673,7 @@ table td {
 	.content-description {
 		font-size: 14px;
 	}
-	.table-card .btn {
-		font-size: 14px;
-	}
+
 	.transmision {
 		font-size: 14px;
 	}
@@ -5736,6 +5742,11 @@ table td {
 	}
 }
 
+@media only screen and (max-width: 370px) {
+	.table-card .btn {
+		font-size: 12px;
+	}
+}
 @media only screen and (max-width: 320px) {
 	.social-networks li {
 		margin-right: 2px;
